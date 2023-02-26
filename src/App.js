@@ -29,13 +29,24 @@ export default function App() {
     setRole(e.target.value);
   };
 
+  const makeFirstLetterCapital = (str) => {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+  };
+
+  const renderResult = () => {
+    let result;
+    role === 'selectRole' ? (result = 'список ролей') : (result = makeFirstLetterCapital(role));
+    return result;
+  };
+
   return (
     <div className='container mt-3'>
       <div>
-        <h1>Привет, выбери доступную роль и ознакомся с ней</h1>
+        <h1>Привет, ниже представлен {renderResult()}</h1>
       </div>
       <div>
         <select className='form-select' value={role} onChange={handleOnChange}>
+          <option value='selectRole'>Список ролей</option>
           <option value='backendDeveloper'>Backend - разработчик</option>
           <option value='devOpsEngineer'>DevOps-инженер</option>
           <option value='frontendDeveloper'>Frontend-разработчик</option>
