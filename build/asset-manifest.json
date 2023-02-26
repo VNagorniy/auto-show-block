@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/static/js/main.4d563aa4.js",
+    "static/media/devOpsEngineer.jpg": "/static/media/devOpsEngineer.de6620b2431cb17579cb.jpg",
+    "static/media/productManager.jpg": "/static/media/productManager.f394e9a7c193da4e38ac.jpg",
+    "static/media/qaEngineer.jpg": "/static/media/qaEngineer.a7fd6f82d9704ddb983a.jpg",
+    "static/media/backendDeveloper.jpg": "/static/media/backendDeveloper.53182c4e914b460b7aa1.jpg",
+    "static/media/uxUIDeveloper.jpg": "/static/media/uxUIDeveloper.71ce000238049c2164d1.jpg",
+    "static/media/frontendDeveloper.jpg": "/static/media/frontendDeveloper.31e2394dace236615eb8.jpg",
+    "index.html": "/index.html",
+    "main.4d563aa4.js.map": "/static/js/main.4d563aa4.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4d563aa4.js"
+  ]
+}
