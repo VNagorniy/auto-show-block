@@ -1,4 +1,4 @@
-import frontendDeveloperImage from '../assets/FrontendDeveloper.jpg';
+import frontendDeveloperImage from '../assets/frontendDeveloper.jpg';
 
 const FrontendDeveloper = () => {
   return (
